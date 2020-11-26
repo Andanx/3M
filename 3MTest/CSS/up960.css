@@ -1,0 +1,139 @@
+/* 大于960像素 */
+@media screen and (min-width: 960px){
+	.text{
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.text h1{
+		margin: 0;
+		margin-top: 10px;
+	}
+	.zx input:nth-child(1){
+		cursor: pointer;
+		margin-left: 7px;
+		width: 77px;
+		height: 31px;
+		background: white url(https://www.3mtech.cn/cncpps/cpcertificate/resources/images/Per_submit.jpg);
+		border: 0;
+	}
+	.zx input:nth-child(2){
+		cursor: pointer;
+		width: 77px;
+		height: 31px;
+		margin-left: 3px;
+		background: white url(https://www.3mtech.cn/cncpps/cpcertificate/resources/images/Per_rest.jpg);
+		border: 0;
+	}
+	.search{
+		margin-top: 11px;
+	}
+	.search form p:nth-child(2){
+		margin-top: 10px;
+		padding: 0;
+		margin-bottom: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.search form p:nth-child(1){
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.search form p:nth-child(1) a{
+		font-size: 14px;
+	}
+	.search form p:nth-child(1) input{
+		-webkit-appearance: none;
+		margin-left: 19px;
+	}
+	.jg{
+		width: 40%;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	.jg p{
+		margin: 0;
+	}
+	.jg p:nth-child(1) a:nth-child(even){
+		text-decoration: underline;
+	}
+	.jg p:nth-child(2){
+		display: flex;
+		flex-direction: column;
+		margin-top: 16px;
+	}
+	.jg p:nth-child(2) a:nth-child(1){
+		margin-top: 0;
+	}
+	.jg p:nth-child(2) a{
+		font-size: 14px;
+		margin-top: 16px;
+	}
+	.footer{
+		width: 100%;
+		height: 138px;
+		margin-top: 34px;
+		background: #fff url(https://www.3mtech.cn/cncpps/cpcertificate/resources/images/head/repeating_hashedLines.png) repeat;
+	}
+	.cpinf{
+		display: flex;
+		flex-direction: row;
+		margin: 47px 0px 0px 66px;
+		align-items: center;
+	}
+	.cpinf img{
+		width: 53px;
+		height: 26px;
+		margin-top: -6px;
+	}
+	.cpinf p{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		font-size: 12px;
+		font-weight: initial;
+		margin-left: 10px;
+	}
+	.opop{
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	}
+	.opop:visited{
+		color: #000000;
+		text-decoration: none;
+		-webkit-tap-highlight-color: #9b9b9b;
+		border-bottom: 1px dotted rgba(0, 0, 0, 0.25);
+		padding-bottom:5px;
+	}
+	.cpinf p span:nth-child(1) a:nth-child(2){
+		margin-left: 12px;
+	}
+	.cpinf p span:nth-child(1) a:nth-child(3){
+		margin-left: 15px;
+	}
+	.cpinf p span:nth-child(1){
+		margin-top: 1px;
+	}
+	.cpinf p span:nth-child(2){
+		margin-top: 4px;
+	}
+	.cpinf p span:nth-child(2) a:nth-child(3){
+		margin-left: 15px;
+	}
+	.colorBar{
+		width: 100%;
+		height: 22px;
+	}
+	.footer::before{
+		content: '';
+		background-image: url(https://www.3mtech.cn/cncpps/cpcertificate/resources/images/head/GradientBar.svg);
+		background-size: 100% 22px;
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 22px;
+	}
+}
